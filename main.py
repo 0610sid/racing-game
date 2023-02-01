@@ -10,7 +10,7 @@ createtable()
 window = tk.Tk()
 window.title("SIDs and SRUs PROJECT")
 window.configure(background='#BAABDA')
-window.attributes('-fullscreen',False)
+window.attributes('-fullscreen',True)
 
 name = tk.Label(window, text="RACING GAME", bg="#BAABDA", font=("Comic Sans MS",15, "bold") , width=30, height=3)
 name.pack(side="top")
